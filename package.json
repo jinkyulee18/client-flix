@@ -1,0 +1,23 @@
+{
+  "name": "client-flix",
+  "version": "1.0.0",
+  "description": "client side for myflix exercise",
+  "default": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html"
+  },
+  "author": "John Lee",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.8.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "process": "^0.11.10"
+  }
+}
